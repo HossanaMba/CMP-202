@@ -1,0 +1,5 @@
+Initialize an array of words: Define an array of strings that contains the words to be checked for palindromes.
+Loop through each word in the array: Use a loop to iterate over each word in the defined array.
+Convert the current word to a character array: For the current word in the loop, convert it into a character array to facilitate character-by-character comparison.
+Check if the word is a palindrome: Compare characters from the start and end moving towards the center, setting a flag to false if a mismatch is found and breaking out of the loop early.
+Print the result for each word: After checking each word, print whether it is a palindrome based on the flag.
